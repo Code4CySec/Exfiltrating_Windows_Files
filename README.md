@@ -8,3 +8,7 @@ This script generates the public and private key pair. After generating the publ
 - encrypt_decrypt.py
 
 After generating the public and private key pair with 'key_gen.py' you can start using this script to encrypt and decreypt data. 
+
+- email_exfil.py
+
+This script exfiltres information you have encrypted with the scripts above. After you use email_exfil.py to send an encrypted file back to your Kali machine, you'll open the email client, select the message, and copy and paste it into a new file. You can then read from that file in order to decrypt it using the previous decrypt script.
