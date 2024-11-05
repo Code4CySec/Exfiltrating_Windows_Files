@@ -16,3 +16,11 @@ This script exfiltres information you have encrypted with the scripts above. Aft
 - transmit_exfil.py
 
 You can use this script to send your encrpypted data via file transfer. The script provides a function for windows as well with the 'win32file' library.
+
+- paste_exfil.py
+
+We can send our encrypted information by posting it on a web server. We will automate the process of posting the encrypted document to an account on https://pastebin.com. This will enables us to dead-drop the document and retrieve it when we want to without anyone else being able to decrypt it.
+
+- exfil.py
+
+Finally we tie everyting together. You can call to exfiltrate files by using any of the methods we have written. 
